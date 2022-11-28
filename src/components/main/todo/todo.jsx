@@ -34,7 +34,7 @@ const Todo = ({item}) => {
     }
     const editTodo = (id) => {
         getEdit(id, accessToken, {
-            title: changeTitle.length !== 0 && changeTitle || title.title
+            title: changeTitle || title.title
         })
             .then(() => {
                 setShowInput(false)
@@ -61,7 +61,7 @@ const Todo = ({item}) => {
                     <div className="card_change_input">
                         <h5>Change title to : </h5>
                         <input type="text" placeholder='Change to new title ' onChange={e => setChange(e.target.value)}
-                               value={title.title}/>
+                               defaultValue={title.title}/>
                         <button onClick={() => editTodo(item.id)}>Change</button>
                     </div>
                 )
