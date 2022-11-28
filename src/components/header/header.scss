@@ -1,0 +1,55 @@
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 25px 18px;
+  background-color: #4087fb;
+  margin-bottom: 75px;
+  position: relative;
+  transition: .5s;
+  & a {
+    color: white;
+  }
+
+}
+
+.toggle {
+  height: 130px;
+  border-bottom: 3px solid white;
+}
+
+.burger_menu {
+  color: white;
+  font-size: 25px;
+}
+
+.buttons {
+  display: none;
+}
+
+.active {
+  display: flex;
+  position: absolute;
+  top: 68%;
+
+}
+
+.btn_success {
+  background-color: #0f9d58;
+  font-weight: 700;
+  padding: 10px 20px;
+  margin-right: 10px;
+  font-size: 13px;
+  border-radius: 5px;
+}
+
+.btn_danger {
+  background-color: #db4437;
+  font-weight: 700;
+  padding: 10px 20px;
+  font-size: 13px;
+  border-radius: 5px;
+}
+
+.navbar a {
+  color: white;
+}

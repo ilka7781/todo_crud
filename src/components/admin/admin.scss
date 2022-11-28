@@ -1,0 +1,58 @@
+.container{
+  margin: 0 50px;
+}
+.todo_form{
+  background-color: #f5f5f5;
+  height: 100%;
+  padding-bottom: 1px;
+  & form{
+    margin: 30px;
+  }
+  & h1{
+    margin: 0 30px;
+    padding-top: 10px;
+    font-weight:bold;
+  }
+  &_alert{
+    text-align: center;
+  }
+  & h3{
+    color: gray;
+    margin-top: 10px;
+  }
+  & input{
+    width: 100%;
+    padding: 15px 0;
+    margin-bottom: 15px;
+  }
+  & button{
+    width: 100%;
+    padding:15px 0;
+    margin-top: 30px;
+    color: white;
+    background-color: #4087fb;
+    border: none;
+    cursor: pointer;
+  }
+  &_main{
+    text-align: center;
+    margin-top: 20px;
+  }
+}
+.alert_todo{
+  margin-left: auto;
+  width: fit-content;
+  color: white;
+  background-color: #0f9d58;
+  padding: 10px;
+  margin-right: 10px;
+  border-radius: 10px;
+}
+.error_todo{
+  margin-left: auto;
+  width: fit-content;
+  color: white;
+  background-color: #db4437;
+  padding: 10px;
+  border-radius: 10px;
+}

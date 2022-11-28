@@ -1,0 +1,12 @@
+.container{
+  margin: 0 50px;
+  & .todo_h1{
+    margin-bottom: 50px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    & span{
+      color: lightblue;
+    }
+  }
+}

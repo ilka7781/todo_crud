@@ -1,0 +1,15 @@
+.not_auth{
+  text-align: center;
+  & h1{
+    color: white;
+    font-size: 2em;
+    margin: 20px;
+    font-weight: bold;
+  }
+  & a{
+    color: white;
+    background-color: #61dafb;
+    padding: 8px 20px;
+    border-radius: 5px;
+  }
+}

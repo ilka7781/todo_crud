@@ -1,0 +1,81 @@
+.todo_card{
+  position: relative;
+  height: 300px;
+  width: 100%;
+  background-color: white;
+  margin-bottom: 30px;
+  padding-top: 30px;
+  &_completed{
+    font-size: 40px;
+    position: absolute;
+    right: 3%;
+    top: 10%;
+    color: green;
+  }
+  & h3{
+    font-size: 1.5em;
+    text-align: center;
+  }
+  &_footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    & button{
+      width: 33.334%;
+      padding: 10px 0;
+      color: white;
+      cursor: pointer;
+      border: 0;
+      &:nth-child(1){
+        background-color: #db4437;
+      }
+      &:nth-child(2){
+        background-color: #0f9d58;
+      }
+      &:nth-child(3){
+        background-color: #4087fb;
+      }
+      svg{
+        font-size: 20px;
+      }
+    }
+  }
+}
+
+.card_change_input{
+  display: flex;
+  flex-direction: column;
+  padding: 25px;
+  & h5{
+    margin-bottom: 15px;
+  }
+  & input{
+    height: 40px;
+    margin-bottom: 15px;
+  }
+  & button{
+    margin: auto;
+    width: 33.334%;
+    padding: 10px 0;
+    color: white;
+    cursor: pointer;
+    border: 0;
+    background-color: #4087fb;
+  }
+}
+
+.card_body{
+
+  &_date{
+    position: absolute;
+    top: 10%;
+    font-size: 9px;
+    left: 3%;
+    font-weight: 200;
+  }
+  &_content{
+    margin-left: 30px;
+    font-size: 30px;
+    margin-top: 20px;
+  }
+}
