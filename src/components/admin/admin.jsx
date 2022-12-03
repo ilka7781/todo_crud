@@ -1,7 +1,7 @@
 import React, {useState} from 'react';
 import './admin.scss';
 import {Link} from "react-router-dom";
-import {getCreate} from "../API/routes";
+import {getCreate} from "../API/utils";
 
 const Admin = () => {
     const accessToken = localStorage.getItem('accessToken');

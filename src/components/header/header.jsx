@@ -1,7 +1,7 @@
 import React, {useState} from 'react';
 import {Link, useNavigate} from "react-router-dom";
 import './header.scss';
-import {getOut} from "../API/routes";
+import {getOut} from "../API/utils";
 import {RiMenu3Fill} from "@react-icons/all-files/ri/RiMenu3Fill";
 import {MdPrivacyTip} from "react-icons/md";
 import {ImExit} from "@react-icons/all-files/im/ImExit";

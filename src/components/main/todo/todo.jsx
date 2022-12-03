@@ -3,7 +3,7 @@ import './todo.scss';
 import {AiFillDelete} from "@react-icons/all-files/ai/AiFillDelete";
 import {AiFillCheckCircle} from "@react-icons/all-files/ai/AiFillCheckCircle";
 import {FaEdit} from "@react-icons/all-files/fa/FaEdit";
-import {getCompleted, getDelete, getEdit, getSingleTodo} from "../../API/routes";
+import {getCompleted, getDelete, getEdit, getSingleTodo} from "../../API/utils";
 import {BsFillCheckCircleFill} from "react-icons/bs";
 
 const Todo = ({item}) => {

@@ -1,7 +1,7 @@
 import React, {useState} from 'react';
 import './reg.scss';
 import {Link} from "react-router-dom";
-import {getRegister} from "../API/routes";
+import {getRegister} from "../API/utils";
 
 const Register = () => {
     const [email, setEmail] = useState('');

@@ -1,7 +1,7 @@
 import React, {useState} from 'react';
 import {Link, useNavigate} from "react-router-dom";
 import './reg.scss';
-import {getAuth} from "../API/routes";
+import {getAuth} from "../API/utils";
 
 
 const Auth = () => {

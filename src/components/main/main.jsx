@@ -1,6 +1,6 @@
 import React, {useEffect, useState} from 'react';
 import './main.scss';
-import {getTodos} from "../API/routes";
+import {getTodos} from "../API/utils";
 import Loader from "./loader/loader";
 import Todo from "./todo/todo";
 import {ImFileEmpty} from "@react-icons/all-files/im/ImFileEmpty";
